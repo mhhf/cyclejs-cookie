@@ -21,7 +21,7 @@
     "xstream": "*"
   },
   "dependencies": {
-    "cookie_js": "10clouds/cookie.js"
+    "cookie_js": "https://github.com/10clouds/cookie.js.git#master"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
