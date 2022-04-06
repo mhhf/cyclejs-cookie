@@ -2,7 +2,7 @@
   "name": "cyclejs-cookie",
   "version": "0.7.4",
   "description": "Cookie Driver for Cycle.js, based on cookie_js",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register test",
     "browserify": "browserify lib/index.js -t babelify --global-transform browserify-shim --exclude rx --outfile dist/cycle-cookie.js",

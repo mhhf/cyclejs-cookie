@@ -2,7 +2,6 @@ import xs from 'xstream';
 import {cookie} from 'cookie_js';
 
 export function makeCookieDriver({decode = null} = {}) {
-    'use strict';
 
     if (decode) {
         cookie.utils.decode = decode;
